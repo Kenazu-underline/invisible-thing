@@ -1,0 +1,30 @@
+:root{
+  --baseColor: #fcf8f8;
+  --highlightColor: #333;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body, #root{
+  height: 100%;
+  width: 100%;
+  color: var(--highlightColor);
+  background-color: var(--baseColor);
+}
+
+body {
+  background: #F0F0F5;
+  -webkit-font-smoothing: antialiased;
+}
+
+body, input, button {
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Roboto;
+}

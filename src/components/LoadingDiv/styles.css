@@ -1,0 +1,52 @@
+@keyframes loading_points {
+  0%   {translate: 0 0rem; color: var(--highlightColor)}
+  8%   {translate: 0 -2rem; color: gray}
+  12%  {translate: 0 -2rem; color: gray}
+  20%  {translate: 0 0rem; color: var(--highlightColor)}
+  100% {translate: 0 0rem; color: var(--highlightColor)}
+}
+@keyframes loading {
+  0%   {color: var(--highlightColor)}
+  8%   {color: gray}
+  12%  {color: gray}
+  20%  {color: var(--highlightColor)}
+  100% {color: var(--highlightColor)}
+}
+
+#loading-div.loading {
+  font-size: 5rem;
+  animation-name: loading;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  
+}
+
+#loading-div .p1, #loading-div .p2, #loading-div .p3{
+  animation-name: loading_points;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  font-size: 5rem;
+}
+#loading-div .p1{
+  animation-delay: 0.2s;
+}
+#loading-div .p2{
+  animation-delay: 0.4s;
+}
+#loading-div .p3{
+  animation-delay: 0.6s;
+}
+
+#loading-div .centered{
+  display: flex;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--baseColor);
+}

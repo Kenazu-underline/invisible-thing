@@ -1,0 +1,216 @@
+html, body{
+  width: 100%;
+  height: 100%;
+  min-height: 600px;
+}
+
+#page-create{
+  padding: 10px;
+}
+
+#page-create h1, #page-create h2, #page-create h3{
+  width: 100%;
+  text-align: center;
+}
+
+#page-create.wrapper{
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  overflow: scroll;
+}
+
+#page-create .container {
+  width: 50%;
+  min-width: 400px;
+  height: 100%;
+  padding: 10px;
+  border: solid 5px var(--highlightColor);
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+#page-create fieldset{
+  border: none;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+#page-create label{
+  font-size: 14pt;
+  margin: 10px;
+}
+
+#page-create input[type=text]{
+  width: 100%;
+  border: solid 2px var(--highlightColor);
+  background-color: var(--baseColor);
+  border-radius: 10px;
+  height: 36px;
+  text-align: center;
+  font-size: 12pt;
+}
+#page-create input[type=text]:focus{
+  box-shadow: 0 0 4px var(--highlightColor);
+}
+#page-create input#link{
+  width: 90%;
+}
+
+#page-create button:hover{
+  opacity: 0.9;
+}
+
+#page-create button#play, #page-create button#create{
+  width: 100%;
+  height: 48px;
+  margin: 0;
+  color: var(--baseColor);
+  background-color: var(--highlightColor);
+  font-size: 16pt;
+  font-weight: 700;
+  border-radius: 12px;
+
+  border: solid 4px var(--highlightColor);
+}
+#page-create button:disabled{
+  opacity: 0.25;
+}
+
+#page-create div#uploads{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+#page-create .dropsound, #page-create .dropimage {
+  background: var(--highlightColor);
+  color: aliceblue;
+  border-radius: 12px;
+  height: 80px;
+  width: 48%;
+  display: flex;
+  justify-content: center;
+}
+
+#page-create .dropimage div, #page-create .dropsound div{
+  height: 100%;
+  width: 100%;
+  display: flex;
+}
+
+#page-create .dropsound:hover, #page-create .dropimage:hover{
+  opacity: 0.9;
+}
+
+#page-create .dropimage > div > .p, #page-create .dropsound > div > .p{
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-content: center;
+  text-align: center;
+  padding: 4px;
+}
+
+#page-create .dropsound div audio, #page-create .dropimage img {
+  width: 100%;
+  height: 100%; 
+  border: solid 2px var(--highlightColor);
+  border-radius: 0 12px 12px 0;
+}
+
+#page-create .dropsound > .p, #page-create .dropimage > .p {
+  width: 100%;
+  border-radius: 12px;
+  border: 1px dashed var(--baseColor);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  color: var(--baseColor);
+  margin: 8px;
+}
+
+#page-create .dropimage .p svg, #page-create .dropsound .p svg {
+  color: var(--baseColor);
+  width: 100%;
+  height: 24px;
+  margin-bottom: 8px;
+}
+
+#page-create .dropsound > .p >svg, #page-create .dropimage > .p >svg {
+  color: var(--baseColor);
+  width: 24px;
+  height: 24px;
+  margin-bottom: 8px;
+}
+
+#page-create .tooltip {
+  position: relative;
+  border-bottom: 1px dotted black
+}
+
+
+#page-create .tooltip .tooltiptext {
+  visibility: hidden;
+  position: absolute;
+  width: 256px;
+  background-color: var(--baseColor);
+  color: var(--highlightColor);
+  text-align: center;
+  padding: 8px;
+  border-radius: 8px;
+  border: solid 2px var(--highlightColor);
+  z-index: 1;
+  top: 100%;
+  left: 50%;
+  margin-left: -128px;
+  float: left;
+  margin-top: 16px;
+  text-align: left;
+  font-size: 11pt;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+#page-create .tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+#page-create .tooltiptext li{
+  list-style-type: square;
+  list-style-position: inside;
+}
+
+#page-create #share-wrapper{
+  display: flex;
+  justify-content: space-between;
+}
+
+#page-create .share-wrapper{
+  text-align: right;
+  width: 80px;
+}
+
+#page-create .share{
+  display: flex;
+  justify-content: space-between;
+}
+
+#page-create .share button{
+  margin: 0;
+}
+
+#page-create .space-below{
+  margin-bottom: 5px;
+}
+
+.link-wrapper{
+  flex-grow: 1;
+}
+
+#page-create .invisible{
+  display: none !important;
+}

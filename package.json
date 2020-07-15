@@ -1,0 +1,55 @@
+{
+  "name": "web",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://kenazu-underline.github.io/invisible-thing",
+  "dependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.5.0",
+    "@testing-library/user-event": "^7.2.1",
+    "@types/jest": "^24.9.1",
+    "@types/node": "^12.12.45",
+    "@types/react": "^16.9.35",
+    "@types/react-dom": "^16.9.8",
+    "@types/react-router-dom": "^5.1.5",
+    "axios": "^0.19.2",
+    "history": "^5.0.0",
+    "i18next": "^19.4.5",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-dropzone": "^11.0.1",
+    "react-ga": "^3.0.0",
+    "react-i18next": "^11.5.0",
+    "react-icons": "^3.10.0",
+    "react-image-file-resizer": "^0.2.4",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "3.4.1",
+    "react-share": "^4.2.0",
+    "serve": "^11.3.2",
+    "typescript": "^3.7.5",
+    "uuidv4": "^6.1.0"
+  },
+  "scripts": {
+    "start": "serve -s build",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "heroku-postbuild": "npm run build",
+    "dev": "react-scripts start"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
