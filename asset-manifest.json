@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/invisible-thing/static/css/main.24ea3bb8.chunk.css",
+    "main.js": "/invisible-thing/static/js/main.9e6bac7f.chunk.js",
+    "main.js.map": "/invisible-thing/static/js/main.9e6bac7f.chunk.js.map",
+    "runtime-main.js": "/invisible-thing/static/js/runtime-main.001b1bd9.js",
+    "runtime-main.js.map": "/invisible-thing/static/js/runtime-main.001b1bd9.js.map",
+    "static/js/2.076e39d1.chunk.js": "/invisible-thing/static/js/2.076e39d1.chunk.js",
+    "static/js/2.076e39d1.chunk.js.map": "/invisible-thing/static/js/2.076e39d1.chunk.js.map",
+    "index.html": "/invisible-thing/index.html",
+    "precache-manifest.dc4bd95f16d95ae74415ee0b6babec9f.js": "/invisible-thing/precache-manifest.dc4bd95f16d95ae74415ee0b6babec9f.js",
+    "service-worker.js": "/invisible-thing/service-worker.js",
+    "static/css/main.24ea3bb8.chunk.css.map": "/invisible-thing/static/css/main.24ea3bb8.chunk.css.map",
+    "static/js/2.076e39d1.chunk.js.LICENSE.txt": "/invisible-thing/static/js/2.076e39d1.chunk.js.LICENSE.txt",
+    "static/media/beep.mp3": "/invisible-thing/static/media/beep.21dc71ae.mp3"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.001b1bd9.js",
+    "static/js/2.076e39d1.chunk.js",
+    "static/css/main.24ea3bb8.chunk.css",
+    "static/js/main.9e6bac7f.chunk.js"
+  ]
+}
